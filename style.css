@@ -1,14 +1,45 @@
-@import url ('https://fonts.googleapis.com/css?family=Roboto:400,700');
-@import url ('https://fonts.googleapis.com/css?family=Raleway:900');
+.body {
+    margin: 0;
+    font-size:  18px;
+    text-align: center;
+    padding: 24px;
+    color: snow;
+}
+
+.hlavicka {
+    background-color: #415a77;
+
+}
+
+.hlavicka a {
+    color: snow;
+}
+
+.sekce1 {
+    background-color: #778da9;
+}
+
+.o-mne img {
+    border-radius: 2000px;
+}
+
+.vzdelani li {
+    list-style: none;
+  }
+
+.prace li {
+    list-style: none;
+}
 
 h1 {
-    color: black;
+    color: snow;
     font-family: "Roboto";
 }
 
-.logo {
-    color: blue;
-    font-family: "roboto";
-    font-size: 32px;
+h2 {
+    color: #415a77;
 }
 
+h3 {
+    color: #415a77;
+}
