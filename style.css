@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.body {
+body {
     font-size:  18px;
     font-family: Roboto;
     text-align: center;
@@ -24,6 +24,13 @@ h3 {
     margin-top: 36px;
 }
 
+h4 {
+    font-size: 20px;
+    color: snow;
+    font-weight: bold;
+    margin-top: 0;
+}
+
 .hlavicka {
     padding: 20px;
     background-color: #415a77;
@@ -41,20 +48,43 @@ h3 {
     border-radius: 35px 0 35px 0;
 }
 
+section h2 {
+    background-color: snow;
+}
+
 .vzdelani,
 .prace,
 .jazykove-znalosti,
 .zajmy {
     background-color: #778da9;
-    padding: 20px 7%;
+    padding: 10px 7%;
+    margin: 0;
 }
 
 .vzdelani li {
     list-style: none;
+    width: 50%;
   }
+
+.vzdelani ul {
+    color: #415a77;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+}
 
 .prace li {
     list-style: none;
+    width: 30%;
+    padding: 16px;
+    margin: 0 16px;
+}
+
+.prace ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
 }
 
 .jazykove-znalosti ul {
@@ -68,6 +98,7 @@ h3 {
     width: 25%;
     padding: 16px;
     margin: 0 16px;
+    font-weight: bold;
 }
 
 .zajmy ul {
@@ -85,6 +116,8 @@ h3 {
 
 .zajmy li h3 {
     margin: 0;
+    color: snow;
+    font-weight: bold;
 }
 
 .paticka {
@@ -99,4 +132,18 @@ h3 {
 .paticka h2{
     color: snow;
     font-family: monospace;
+}
+
+.paticka ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 25%;
+}
+
+.paticka li{
+    list-style: none;
+    width: 30%;
+    padding: 16px;
+    margin: 0 16px;
 }
