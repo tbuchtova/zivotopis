@@ -1,26 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 .body {
-    margin: 0;
     font-size:  18px;
+    font-family: Roboto;
     text-align: center;
-    padding: 24px;
     color: snow;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 {
+    color: snow;
+    font-family: monospace;
+}
+
+h2 {
+    color: #415a77;
+    margin-top: 0;
+    }
+
+h3 {
+    color: #415a77;
+    margin-top: 36px;
 }
 
 .hlavicka {
+    padding: 20px;
     background-color: #415a77;
+}
 
+.hlavicka h2{
+    color: snow;
 }
 
 .hlavicka a {
     color: snow;
 }
 
-.sekce1 {
-    background-color: #778da9;
+.hlavicka img {
+    border-radius: 35px 0 35px 0;
 }
 
-.o-mne img {
-    border-radius: 2000px;
+.vzdelani,
+.prace,
+.jazykove-znalosti,
+.zajmy {
+    background-color: #778da9;
+    padding: 20px 7%;
 }
 
 .vzdelani li {
@@ -31,15 +57,46 @@
     list-style: none;
 }
 
-h1 {
+.jazykove-znalosti ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jazykove-znalosti li {
+    list-style: none;
+    width: 25%;
+    padding: 16px;
+    margin: 0 16px;
+}
+
+.zajmy ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.zajmy li {
+    list-style: none;
+    width: 30%;
+    padding: 16px;
+    margin: 0 16px;
+}
+
+.zajmy li h3 {
+    margin: 0;
+}
+
+.paticka {
+    background-color: #415a77;
+    padding: 20px;
+    }
+
+.paticka a {
     color: snow;
-    font-family: "Roboto";
 }
 
-h2 {
-    color: #415a77;
-}
-
-h3 {
-    color: #415a77;
+.paticka h2{
+    color: snow;
+    font-family: monospace;
 }
